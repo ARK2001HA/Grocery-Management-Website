@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: linear-gradient(#43cea2,#185a9d);
+	/*background-image: url('http://localhost/CI_FinalSession/Images/2.jpg');*/
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: new time roman;
+}
+h1{
+	font-size: 50px;
+	color: white;
+}
+img{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	margin-left: 200px;
+	transition: 1s;
+}
+img:hover{
+	-webkit-transform: scale(1.8);
+}
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 2px solid lightgreen;
+	font-size: 21px;
+	margin-top: 18px;
+	padding: 23px;
+	color: white;
+}
+.btn-info{
+	margin-top: 20px;
+	font-size: 21px;
+	width: 200px;
+	background: transparent;
+}
+.col-md-6{
+	box-shadow: -1px 1px 60px 10px black;
+	border-radius: 0px 100px 0px 100px;
+	margin-top: 100px;
+	height: 500px;
+	background: rgba(0, 0, 0, 0.4);
+}
+input[type="submit"]{
+	margin-top: 22px;
+    height: 39px;
+    width: 136px;
+    color: black;
+    background-color: lightgreen;
+    font-family: new time roman;
+}
